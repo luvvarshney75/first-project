@@ -1,10 +1,25 @@
-alert("Hello, World!");
-var a = prompt("Enter a value:", "");
-var isTrue = confirm("are you sure you want to leave this page and blast your computer ")
-if(isTrue) {
-    console.log("computer blasted");
-}
-else {
-    console.log("computer safe");
-}       
-console.log("You entered: " + a);
+console.log("Hello, World!");
+var x = 10;
+var y = 20;
+console.log("Sum:", x + y);
+let a=23;
+let b=42;
+console.log("Product:", a*b);
+let k = "shubham";
+console.log(k);
+console.log(x, k, a, b);
+console.log(typeof x, typeof k, typeof a, typeof b);
+let o = {
+"name": "Alice",
+"job role": "Developer",
+"age": 30,
+"job code": "D123",
+
+
+
+
+};
+console.log(o);
+o.salary = "500 crores";
+console.log(o);
+
